@@ -54,7 +54,6 @@
 	
 	#hero.has-image #hero-caption {
 		height:auto;
-		padding-top:calc(100vh - 11vw - 300px);
 		padding-bottom:180px;
 		text-align:left;
 	}
