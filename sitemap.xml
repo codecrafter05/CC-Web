@@ -41,6 +41,35 @@
         <priority>0.7</priority>
     </url>
     
+    <!-- Service Pages -->
+    <url>
+        <loc>https://codecrafter.cc/web-development-bahrain.html</loc>
+        <lastmod>2025-03-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://codecrafter.cc/website-design-bahrain.html</loc>
+        <lastmod>2025-03-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://codecrafter.cc/software-development-bahrain.html</loc>
+        <lastmod>2025-03-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://codecrafter.cc/laravel-development-bahrain.html</loc>
+        <lastmod>2025-03-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
     <!-- Portfolio / Project Pages -->
     <url>
         <loc>https://codecrafter.cc/caravan.html</loc>
