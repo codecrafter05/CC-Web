@@ -6,111 +6,115 @@
     
     <!-- Homepage -->
     <url>
-        <loc>https://www.codecrefter.cc/</loc>
-        <lastmod>2024-12-19</lastmod>
+        <loc>https://codecrafter.cc/</loc>
+        <lastmod>2025-03-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     
-    <!-- About Page -->
+    <!-- Core Pages -->
     <url>
-        <loc>https://www.codecrefter.cc/about.html</loc>
-        <lastmod>2024-12-19</lastmod>
+        <loc>https://codecrafter.cc/about.html</loc>
+        <lastmod>2025-03-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
-    <!-- Contact Page -->
     <url>
-        <loc>https://www.codecrefter.cc/contact.html</loc>
-        <lastmod>2024-12-19</lastmod>
+        <loc>https://codecrafter.cc/contact.html</loc>
+        <lastmod>2025-03-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
-    <!-- Showcase Page -->
     <url>
-        <loc>https://www.codecrefter.cc/showcase.html</loc>
-        <lastmod>2024-12-19</lastmod>
+        <loc>https://codecrafter.cc/showcase.html</loc>
+        <lastmod>2025-03-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     
-    <!-- Multimedia Page -->
     <url>
-        <loc>https://www.codecrefter.cc/multimedia.html</loc>
-        <lastmod>2024-12-19</lastmod>
+        <loc>https://codecrafter.cc/multimedia.html</loc>
+        <lastmod>2025-03-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
-    <!-- Project Pages -->
+    <!-- Portfolio / Project Pages -->
     <url>
-        <loc>https://www.codecrefter.cc/caravan.html</loc>
-        <lastmod>2024-12-19</lastmod>
+        <loc>https://codecrafter.cc/caravan.html</loc>
+        <lastmod>2025-03-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     
     <url>
-        <loc>https://www.codecrefter.cc/leen.html</loc>
-        <lastmod>2024-12-19</lastmod>
+        <loc>https://codecrafter.cc/aljiwan.html</loc>
+        <lastmod>2025-03-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     
     <url>
-        <loc>https://www.codecrefter.cc/jaryalshaikhmall.html</loc>
-        <lastmod>2024-12-19</lastmod>
+        <loc>https://codecrafter.cc/leen.html</loc>
+        <lastmod>2025-03-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     
     <url>
-        <loc>https://www.codecrefter.cc/MoSD.html</loc>
-        <lastmod>2024-12-19</lastmod>
+        <loc>https://codecrafter.cc/jaryalshaikhmall.html</loc>
+        <lastmod>2025-03-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     
     <url>
-        <loc>https://www.codecrefter.cc/mmbrain.html</loc>
-        <lastmod>2024-12-19</lastmod>
+        <loc>https://codecrafter.cc/MoSD.html</loc>
+        <lastmod>2025-03-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     
     <url>
-        <loc>https://www.codecrefter.cc/IINJAZ.html</loc>
-        <lastmod>2024-12-19</lastmod>
+        <loc>https://codecrafter.cc/mmbrain.html</loc>
+        <lastmod>2025-03-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     
     <url>
-        <loc>https://www.codecrefter.cc/filmzone.html</loc>
-        <lastmod>2024-12-19</lastmod>
+        <loc>https://codecrafter.cc/IINJAZ.html</loc>
+        <lastmod>2025-03-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     
     <url>
-        <loc>https://www.codecrefter.cc/deepmark.html</loc>
-        <lastmod>2024-12-19</lastmod>
+        <loc>https://codecrafter.cc/filmzone.html</loc>
+        <lastmod>2025-03-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     
     <url>
-        <loc>https://www.codecrefter.cc/magnify.html</loc>
-        <lastmod>2024-12-19</lastmod>
+        <loc>https://codecrafter.cc/deepmark.html</loc>
+        <lastmod>2025-03-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     
     <url>
-        <loc>https://www.codecrefter.cc/mql4bot.html</loc>
-        <lastmod>2024-12-19</lastmod>
+        <loc>https://codecrafter.cc/magnify.html</loc>
+        <lastmod>2025-03-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://codecrafter.cc/mql4bot.html</loc>
+        <lastmod>2025-03-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
