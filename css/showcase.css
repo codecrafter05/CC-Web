@@ -1,5 +1,162 @@
 
 /*--------------------------------------------------
+	Portfolio Grid — replaces Swiper carousel
+---------------------------------------------------*/
+
+.sc-portfolio-section {
+    padding: 0 0 120px;
+}
+
+.sc-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3px;
+}
+
+.sc-card {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    aspect-ratio: 4 / 3;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #171717;
+}
+
+.sc-card--featured {
+    grid-column: 1 / -1;
+    aspect-ratio: 21 / 8;
+}
+
+.sc-card-img {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.65s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    will-change: transform;
+}
+
+.sc-card:hover .sc-card-img {
+    transform: scale(1.04);
+}
+
+.sc-card-img--placeholder {
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sc-card-img--placeholder::after {
+    content: attr(data-label);
+    color: rgba(255,255,255,0.12);
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.06em;
+    text-align: center;
+    padding: 20px;
+    line-height: 1.8;
+}
+
+.sc-card-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    opacity: 0;
+    transition: opacity 0.35s ease;
+}
+
+.sc-card:hover .sc-card-overlay {
+    opacity: 1;
+}
+
+.sc-card-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 30px 36px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 100%);
+    color: #fff;
+}
+
+.sc-card-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sc-card-tag {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    opacity: 0.65;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sc-card-name {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sc-card--featured .sc-card-name {
+    font-size: 34px;
+}
+
+.sc-card-year {
+    font-size: 11px;
+    opacity: 0.45;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2px;
+}
+
+.sc-card-arrow {
+    font-size: 20px;
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: opacity 0.25s ease, transform 0.25s ease;
+    flex-shrink: 0;
+    margin-bottom: 4px;
+}
+
+.sc-card:hover .sc-card-arrow {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Responsive */
+@media only screen and (max-width: 900px) {
+    .sc-grid {
+        grid-template-columns: 1fr;
+    }
+    .sc-card--featured {
+        grid-column: 1;
+        aspect-ratio: 16 / 9;
+    }
+    .sc-card {
+        aspect-ratio: 16 / 9;
+    }
+    .sc-card--featured .sc-card-name {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .sc-card-name { font-size: 18px; }
+    .sc-card--featured .sc-card-name { font-size: 22px; }
+    .sc-card-info { padding: 20px 22px; }
+    .sc-card { aspect-ratio: 4 / 3; }
+}
+
+
+/*--------------------------------------------------
 	General Styles
 ---------------------------------------------------*/	
 		
